@@ -111,8 +111,7 @@ body {
 	text-align: center;
 }
 .game-ui .top .column :not(:first-child) {
-	margin-right: calc(50% - 3em);
-	text-align: right;
+	text-align: center;
 }
 .game-ui .bottom {
 	justify-content: space-between;
