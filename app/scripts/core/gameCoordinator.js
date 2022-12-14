@@ -17,6 +17,7 @@ class GameCoordinator {
 		this.rightCover = document.getElementById('right-cover');
 		this.pausedText = document.getElementById('paused-text');
 		this.bottomRow = document.getElementById('bottom-row');
+		this.movementButtons = document.getElementById('movement-buttons');
 
 		this.mazeArray = [
 			['XXXXXXXXXXXXXXXXXXXXXXXXXXXX'],

@@ -163,7 +163,7 @@ body {
 }
 
 .logo {
-	height: 180px;
+	height: 120px;
 	margin-top: 25vh;
 }
 
@@ -405,4 +405,8 @@ body {
 
 #row-top {
 	margin-bottom: 100px !important;
+}
+
+.movement-buttons {
+	opacity: 0;
 }
