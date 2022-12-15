@@ -174,11 +174,6 @@ class Ghost {
 	 * @param {('chase'|'scatter'|'scared'|'eyes')} mode - The character's behavior mode
 	 */
 	setSpriteSheet(name, direction, mode) {
-		let emotion = '';
-		if (this.defaultSpeed !== this.slowSpeed) {
-			emotion = this.defaultSpeed === this.mediumSpeed ? '_annoyed' : '_angry';
-		}
-
 		if (mode === 'scared') {
 			this.animationTarget.style.backgroundImage =
 				'url(app/style/graphics/' +
@@ -190,8 +185,7 @@ class Ghost {
 		} else {
 			this.animationTarget.style.backgroundImage =
 				'url(app/style/graphics/' +
-				`spriteSheets/characters/ghosts/${name}/${name}_${direction}` +
-				`${emotion}.svg)`;
+				`spriteSheets/characters/ghosts/${name}/${name}_${direction}.svg)`;
 		}
 	}
 
@@ -1430,17 +1424,9 @@ class GameCoordinator {
 				`${imgBase}characters/pacman/pacman_up.svg`,
 
 				// Blinky
-				`${imgBase}characters/ghosts/blinky/blinky_down_angry.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_down_annoyed.svg`,
 				`${imgBase}characters/ghosts/blinky/blinky_down.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_left_angry.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_left_annoyed.svg`,
 				`${imgBase}characters/ghosts/blinky/blinky_left.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_right_angry.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_right_annoyed.svg`,
 				`${imgBase}characters/ghosts/blinky/blinky_right.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_up_angry.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_up_annoyed.svg`,
 				`${imgBase}characters/ghosts/blinky/blinky_up.svg`,
 
 				// Clyde

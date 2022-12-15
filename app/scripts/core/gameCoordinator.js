@@ -216,17 +216,9 @@ class GameCoordinator {
 				`${imgBase}characters/pacman/pacman_up.svg`,
 
 				// Blinky
-				`${imgBase}characters/ghosts/blinky/blinky_down_angry.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_down_annoyed.svg`,
 				`${imgBase}characters/ghosts/blinky/blinky_down.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_left_angry.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_left_annoyed.svg`,
 				`${imgBase}characters/ghosts/blinky/blinky_left.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_right_angry.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_right_annoyed.svg`,
 				`${imgBase}characters/ghosts/blinky/blinky_right.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_up_angry.svg`,
-				`${imgBase}characters/ghosts/blinky/blinky_up_annoyed.svg`,
 				`${imgBase}characters/ghosts/blinky/blinky_up.svg`,
 
 				// Clyde
