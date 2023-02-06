@@ -60,10 +60,10 @@ class GameCoordinator {
 		this.firstGame = true;
 
 		this.movementKeys = {
-			// WASD
-			87: 'up',
+			// ZQSD
+			90: 'up',
 			83: 'down',
-			65: 'left',
+			81: 'left',
 			68: 'right',
 
 			// Arrow Keys
