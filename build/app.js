@@ -1938,7 +1938,7 @@ class GameCoordinator {
 		if (e.keyCode === 27) {
 			// ESC key
 			this.handlePauseKey();
-		} else if (e.keyCode === 81) {
+		} else if (e.keyCode === 69) {
 			// Q
 			this.soundButtonClick();
 		} else if (this.movementKeys[e.keyCode]) {
